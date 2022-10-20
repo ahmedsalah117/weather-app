@@ -126,7 +126,7 @@ class="position-absolute top-0 py-2 date-div w-100 px-3 text-center"
     let response = await fetch(
       `https://api.weatherapi.com/v1/forecast.json?key=81c69e8bc0c94bfab1d151740221610&q=${city}&days=3&aqi=yes&alerts=no`
     );
-
+    //updated the api connection to https
     actualData = await response.json();
 
     console.log(actualData);
