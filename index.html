@@ -1,0 +1,179 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header class="py-4">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark container">
+        <div class="container-fluid fs-5">
+          <a class="navbar-brand" href="#"
+            ><img class="me-3" src="images/logo.png" />Weather</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item me-3">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link" href="#">News</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link" href="#">Live cameras</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link" href="#">photos</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link" href="#">contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="bg-danger find">
+      <div class="input-container position-relative container rounded-pill">
+        <input
+          type="search"
+          class="form-control container rounded-pill"
+          placeholder="Find your location ...."
+          id="find-input"
+        />
+        <button
+          id="find-btn"
+          class="btn btn-primary rounded-pill position-absolute"
+        >
+          Find
+        </button>
+      </div>
+    </section>
+
+    <section class="weather-section">
+      <div class="container forecast">
+        <div class="row">
+          <div
+            class="col-lg-4 col-sm-12 fst-div px-0 py-5 position-relative"
+            id="left-sec"
+          >
+            <!-- <div class="position-absolute top-0 date-div py-2 w-100 px-3">
+              <span>
+                Sunday
+                <span class="position-absolute">16th of October</span>
+              </span>
+            </div>
+            <div class="ps-4">
+              <p class="mt-3">Cairo</p>
+              <div class="text-center">
+                <span class="deg-font">30&#176;C</span>
+                <img src="images/116.png" class="w-25" />
+              </div>
+              <p class="text-primary mb-4">Partly cloudy</p>
+              <span class="me-3 pt-4"
+                ><img src="images/icon-umberella.png" /> 20%</span
+              >
+              <span class="me-3"
+                ><img src="images/icon-wind.png" /> 180 km/h</span
+              >
+              <span><img src="images/icon-compass.png" /> East</span>
+            </div> -->
+          </div>
+          <div
+            class="col-lg-4 col-sm-12 md-div px-0 py-5 position-relative"
+            id="mid-sec"
+          >
+            <!-- <div
+              class="position-absolute top-0 py-2 date-div w-100 px-3 text-center"
+            >
+              <span>Monday</span>
+            </div>
+            <div class="text-center">
+              <img src="images/113.png" class="mt-3" />
+              <p class="fs-4 fw-bold mt-2 mb-0">30.6&#176;C</p>
+              <p>20.6&#176;C</p>
+              <p class="text-primary">Sunny</p>
+            </div> -->
+          </div>
+          <div
+            class="col-lg-4 col-sm-12 lst-div px-0 py-5 position-relative"
+            id="right-sec"
+          >
+            <!-- <div
+              class="position-absolute top-0 py-2 date-div w-100 px-3 text-center"
+            >
+              <span>Tuesday</span>
+            </div>
+            <div class="text-center">
+              <img src="images/116.png" class="mt-3" />
+              <p class="fs-4 fw-bold mt-2 mb-0">30.6&#176;C</p>
+              <p>20.6&#176;C</p>
+              <p class="text-primary">Sunny</p>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="py-5">
+      <div class="container footer-flex px-0">
+        <div class="footer-fst-child">
+          <div class="subscribe-container position-relative rounded-pill">
+            <input
+              type="search"
+              class="form-control rounded-pill subscribe-input"
+              placeholder="Enter your email to subscribe ...."
+            />
+            <button
+              id="subscribe-btn"
+              class="btn btn-primary rounded-pill position-absolute"
+            >
+              Subscribe
+            </button>
+          </div>
+        </div>
+
+        <div
+          class="social-icons py-5 footer-scnd-child text-center position-relative"
+        >
+          <div class="position-absolute top-0 social-inner-div">
+            <a href="#"
+              ><i class="fa-brands fa-facebook fs-5 rounded-circle"></i
+            ></a>
+            <a href="#"
+              ><i class="fa-brands fa-twitter fs-5 rounded-circle"></i
+            ></a>
+            <a href="#"
+              ><i class="fa-brands fa-google-plus fs-5 rounded-circle"></i
+            ></a>
+            <a href="#"
+              ><i class="fa-brands fa-pinterest fs-5 rounded-circle"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="Copyright-sec container">
+        <p>
+          Copyright 2014 Company name. Designed by Themezy. All rights reserved
+        </p>
+      </div>
+    </footer>
+
+    <script src="JS/bootstrap.bundle.js"></script>
+    <script src="JS/index.js"></script>
+  </body>
+</html>
